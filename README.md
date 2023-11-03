@@ -13,7 +13,8 @@ I am to work extensively on the Northwind traders dataset and Come up with quest
 
 1. CREATE MEASURES AND CALCULATE THE TOTAL UNIT PRICE.
 2. CREATE MEASURES AND CALCULATE THE TOTAL Quantity OF GOODS SOLD.
-3. CREATE COLUMN SHOWING REVENUE ON EACH RPODUCT.
+3. CREATE COLUMN SHOWING REVENUE ON EACH PRODUCT.
+4. CTREATE MEASURES AND CALCULATE AVERAGE UNIT PRICE.
 
 
 
@@ -34,4 +35,10 @@ The screenshot below is showing the TOTAL Quantity of goods = SUM(order_details[
 The Screenshot below is showing REVENUE ON EACH RPODUCT = (order_details[quantity]) * (order_details[unitPrice])
 
 ![P-BI PROJECT 3 REVENUE ON EACH RPODUCT](https://github.com/Tonyigba/POWER-BI-TASK-PROJECT/assets/143624967/3b00490d-edf4-4e03-9d02-ca07ac579728)
+
+
+The screenshot below is showing AVERAGE UNIT PRICE = AVERAGE(order_details[unitPrice])
+
+![POWER BI PROJECT 4](https://github.com/Tonyigba/POWER-BI-TASK-PROJECT/assets/143624967/ca4ae8b7-3ec5-4fe1-92c7-edd24ee6b2f3)
+![P-BI 4 AVERAGE UNIT PRICE = AVERAGE(order_details unitPrice )](https://github.com/Tonyigba/POWER-BI-TASK-PROJECT/assets/143624967/7539fa47-42c2-4c2c-93d9-53a4f213b75f)
 
