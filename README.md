@@ -9,11 +9,11 @@ Data analysis, modeling, and visualization form the core of modern data-driven d
 Power BI offers basic visualization such as bar charts, line charts, and tables. They are effective for comparing values, showing trends over time, or displaying categorical data. These visualizations enable users to explore hierarchical data, relationships, geographical patterns, and distribution of values. Also, it has substantial value by simplifying complex information and has become an indispensable tool for both businesses and individuals. In this project, meaningful insights have been uncovered using the Northwind Traders dataset, enabling organizations to make informed decisions and drive innovation.
 
 # Problem Statement:
-I am to work extensively on the Northwind traders dataset and Come up with questions that i will answer with that data Model, analyze and visualize my insights.
+I am to work extensively on the Northwind traders dataset and Come up with questions that I will answer with that data Model, analyze, and visualize my insights.
 
 1. CREATE MEASURES AND CALCULATE THE TOTAL UNIT PRICE.
 2. CREATE MEASURES AND CALCULATE THE TOTAL Quantity OF GOODS SOLD.
-
+3. CREATE COLUMN SHOWING REVENUE ON EACH RPODUCT.
 
 
 
@@ -24,9 +24,14 @@ The Screeshot below is showing the TOTAL UNIT PRICE = SUM(order_details[unitPric
 ![POWER BI PROJECT 2](https://github.com/Tonyigba/POWER-BI-TASK-PROJECT/assets/143624967/b1703569-bb11-48d5-8fa0-17bbbb4926da)
 
 
-
 The screenshot below is showing the TOTAL Quantity of goods = SUM(order_details[quantity])
 
 ![POWER BI PROJECT 1](https://github.com/Tonyigba/POWER-BI-TASK-PROJECT/assets/143624967/eac24de9-6f3f-48d7-88e2-1e46e0192f68)
 
 ![P-BI PROJECT 1 TOTAL Quantity = SUM(order_details quantity )](https://github.com/Tonyigba/POWER-BI-TASK-PROJECT/assets/143624967/b917592e-7666-4e70-a238-ffdc03b7fafc)
+
+
+The Screenshot below is showing REVENUE ON EACH RPODUCT = (order_details[quantity]) * (order_details[unitPrice])
+
+![P-BI PROJECT 3 REVENUE ON EACH RPODUCT](https://github.com/Tonyigba/POWER-BI-TASK-PROJECT/assets/143624967/3b00490d-edf4-4e03-9d02-ca07ac579728)
+
